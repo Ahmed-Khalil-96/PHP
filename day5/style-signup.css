@@ -1,0 +1,21 @@
+body {
+    background-color: #f0f0f0; 
+}
+
+#formContainer {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+.btn-primary {
+    background-color: #28a745; 
+    border-color: #28a745; 
+}
+
+.btn-primary:hover {
+    background-color: #218838; 
+    border-color: #1e7e34; 
+}
