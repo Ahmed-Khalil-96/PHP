@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if (!$error) {
-        include 'dbase.php';
+        include 'db.php';
         $sql = "SELECT id FROM users WHERE username = \"" . $name . "\";";
         $retal = mysqli_query($conn, $sql);
 
